@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Maná</title>
+</head>
+<body>
+
+    <section class="content-artista">
+        <div class="content-img-portada" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932336/posterMana_rwqvud.jpg" alt="" class="portada-img">
+            <h3>Maná</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932701/oyeMiAmor_mjxqzj.jpg" alt="" class="poster-img">
+            <h3>Oye mi amor</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932701/muelleDeSanBlas_szwneg.jpg" alt="" class="poster-img">
+            <h3>En el muelle de san blas</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932701/oyeMiAmor_mjxqzj.jpg" alt="" class="poster-img">
+            <h3>Clavado en un bar</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932701/Mariposa_Traicionera_vrmty8.jpg" alt="" class="poster-img">
+            <h3>Mariposa traicionera</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746930643/Man%C3%A1_uus0oo.jpg" alt="" class="poster-img">
+            <h3>Labios compartidos</h3>
+        </div>
+    </section>
+
+    <section class="content-reproductor">
+        <div class="reproductor-content-audio">
+            <div class="reproductor-content-poster">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932701/oyeMiAmor_mjxqzj.jpg" alt="" class="reproductor-poster-img">
+            </div>
+            <div class="content-about-music">
+                <h2 class="reproductor-nombre-cancion">
+                    Oye mi amor
+                </h2>
+                <h3 class="reprodutor-nombre-artista">
+                    Maná
+                </h3>
+            </div>
+            <div class="reproductor-content-audio-control">
+                <audio id="player" src="https://res.cloudinary.com/dcqr7yd84/video/upload/v1746977192/oyemiamor_yz2syc.mp3" controls></audio>
+            </div>
+        </div>
+    
+        <div class="reproductor-content-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OhXeBoTlCr4?si=MwECyoTJ-gGn6TSb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <script src="./canciones.js"></script>
+    <!-- <script src="./database.js"></script> -->
+</body>
+</html>

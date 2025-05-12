@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --background-page: #050505;
+    --border-color: #191919;
+    --background-article: #1E1E1E; 
+}
+
+body{
+    background-color: var(--background-page);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.content-artista{
+    background-color: var(--background-article);
+    border: var(--border-color) 1px solid;
+    border-radius: 10px;
+    width: 500px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+
+.content-img-portada{
+    position: relative;
+}
+
+.content-img-portada::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, #1E1E1E);
+}
+
+.portada-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.content-img-portada h3{
+    color: white;
+    font-weight: 300;
+    font-size: 2em;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.content-list-music{
+    height: 100px;
+    padding: 6px 20px;
+    margin: 0 5px;
+    display: flex;
+    align-items: start;
+    cursor: pointer;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.content-list-music:hover   {
+    background-color: #282828;
+}
+
+.poster-img{
+    width: 40px;
+    border-radius: 10px;
+}
+
+
+.content-list-music h3{
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.content-reproductor{
+    background: var(--background-article);
+    border: var(--border-color) 1px solid;
+    border-radius: 10px;
+    height: 100vh;
+    flex-grow: 1;
+    margin: 20px;
+    max-width: 700px;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(2, max(100%));
+    scroll-snap-type: x mandatory;
+}
+
+.content-reproductor::-webkit-scrollbar{
+    display: none;
+}
+
+.reproductor-content-audio{
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.reproductor-content-poster{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 20px;
+}
+
+.reproductor-poster-img{
+    margin: auto;
+    display: flex;
+    place-content: center;
+    aspect-ratio: 2/2;
+    border-radius: 10px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.content-about-music{
+    width: 40%;
+    margin: auto;
+}
+
+.reproductor-nombre-cancion{
+    font-weight: 400;
+    color: white;
+}
+
+.reprodutor-nombre-artista{
+    font-weight: 300;
+    color: rgb(163, 163, 163);
+}
+
+.reproductor-content-audio-control{
+    height: 40%;
+    display: grid;
+    place-content: center;
+}
+
+.reproductor-content-video{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    scroll-snap-align: start;
+}
+
+.reproductor-content-video iframe{
+    aspect-ratio: 16/9;
+    width: 95%;
+    margin: auto;
+}
