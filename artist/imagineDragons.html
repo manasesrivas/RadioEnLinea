@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Imagine Dragons</title>
+</head>
+<body>
+
+    <section class="content-artista">
+        <div class="content-img-portada" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932336/posterMana_rwqvud.jpg" alt="" class="portada-img">
+            <h3>Imagine Dragons</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746988231/whatever_it_takes_zq4oey.jpg" alt="" class="poster-img">
+            <h3>Whatever It Takes</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746988446/radioactive_joq7ru.jpg" alt="" class="poster-img">
+            <h3>Radioactive</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746988231/whatever_it_takes_zq4oey.jpg" alt="" class="poster-img">
+            <h3>Thunder</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746990116/Origins__-_Imagine_Dragons_VINYL_ce9vfw.jpg" alt="" class="poster-img">
+            <h3>Birds</h3>
+        </div>
+    </section>
+
+    <section class="content-reproductor">
+        <div class="reproductor-content-audio">
+            <div class="reproductor-content-poster">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746988231/whatever_it_takes_zq4oey.jpg" alt="" class="reproductor-poster-img">
+            </div>
+            <div class="content-about-music">
+                <h2 class="reproductor-nombre-cancion">
+                    Whatever It Takes
+                </h2>
+                <h3 class="reprodutor-nombre-artista">
+                    Imagine Dragons
+                </h3>
+            </div>
+            <div class="reproductor-content-audio-control">
+                <audio id="player" src="https://res.cloudinary.com/dcqr7yd84/video/upload/v1746989085/Imagine_Dragons_-_Whatever_It_Takes_Audio_-_ImagineDragonsVEVO_glidug.mp3" controls></audio>
+            </div>
+        </div>
+    
+        <div class="reproductor-content-video">
+            <iframe src="https://www.youtube.com/embed/gOsM-DYAEhY?si=PgJYcEIMuwCZC55d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <script src="/js/main.js"></script>
+</body>
+</html>

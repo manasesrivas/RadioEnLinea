@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>The Beatles</title>
+</head>
+<body>
+
+    <section class="content-artista">
+        <div class="content-img-portada" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932336/posterMana_rwqvud.jpg" alt="" class="portada-img">
+            <h3>The Beatles</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018617/THE_BEATLES_-_Abbey_Road_1969_if03vb.jpg" alt="" class="poster-img">
+            <h3>Here Comes The Sun</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018614/Hey_Jude_nsxev5.jpg" alt="" class="poster-img">
+            <h3>Hey Jude</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018618/The_Beatles_The_White_Album_by_The_Beatles_on_Apple_Music_k2jkfd.jpg" alt="" class="poster-img">
+            <h3>Blackbird</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018618/The_Beatles_-_Let_It_Be_1967_n6nfs8.jpg" alt="" class="poster-img">
+            <h3>Let It Be</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018617/THE_BEATLES_-_Abbey_Road_1969_if03vb.jpg" alt="" class="poster-img">
+            <h3>Something</h3>
+        </div>
+    </section>
+
+    <section class="content-reproductor">
+        <div class="reproductor-content-audio">
+            <div class="reproductor-content-poster">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018617/THE_BEATLES_-_Abbey_Road_1969_if03vb.jpg" alt="" class="reproductor-poster-img">
+            </div>
+            <div class="content-about-music">
+                <h2 class="reproductor-nombre-cancion">
+                    Here Comes The Sun
+                </h2>
+                <h3 class="reprodutor-nombre-artista">
+                    The Beatles
+                </h3>
+            </div>
+            <div class="reproductor-content-audio-control">
+                <audio id="player" src="https://res.cloudinary.com/dcqr7yd84/video/upload/v1747018617/Here_Comes_The_Sun_2019_Mix_-_The_Beatles_kyv6b5.mp3" controls></audio>
+            </div>
+        </div>
+    
+        <div class="reproductor-content-video">
+            <iframe src="https://www.youtube.com/embed/KQetemT1sWc?si=0OHOsuZPE2mq0Yyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <script src="/js/main.js"></script>
+</body>
+</html>
