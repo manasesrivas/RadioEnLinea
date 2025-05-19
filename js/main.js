@@ -24,7 +24,51 @@ const canciones = {
         "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1746932701/Mariposa_Traicionera_vrmty8.jpg",
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/av3wkasS-WQ?si=2hhUlBVOV0EdTWuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
     },
-    
+    "Whatever It Takes":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1746989085/Imagine_Dragons_-_Whatever_It_Takes_Audio_-_ImagineDragonsVEVO_glidug.mp3",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1746988231/whatever_it_takes_zq4oey.jpg",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/gOsM-DYAEhY?si=PgJYcEIMuwCZC55d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>`
+    },
+    "Radioactive":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1746989361/Imagine_Dragons_-_Radioactive_-_ImagineDragonsSongs_yvsmpb.mp3",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1746988446/radioactive_joq7ru.jpg",
+        "video": `video: <iframe src="https://www.youtube.com/embed/ktvTqknDobU?si=FSVVaCezwtz1CEsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Thunder":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1746989082/Imagine_Dragons_-_Thunder_Audio_-_ImagineDragonsVEVO_xpk839.mp3",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1746988231/whatever_it_takes_zq4oey.jpg",
+        "video": ` <iframe src="https://www.youtube.com/embed/fKopy74weus?si=ctIws2z1OBd5MXpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Birds":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1746990324/Imagine_Dragons_-_Birds_Lyrics_-_Gold_Coast_Music_g5n4qg.mp3",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1746990116/Origins__-_Imagine_Dragons_VINYL_ce9vfw.jpg",
+        "video": `video: <iframe src="https://www.youtube.com/embed/vOXZkm9p_zY?si=L-14L0-ZbuI_gt9n&amp;start=71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Here Comes The Sun":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1747018617/Here_Comes_The_Sun_2019_Mix_-_The_Beatles_kyv6b5.mp3",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018617/THE_BEATLES_-_Abbey_Road_1969_if03vb.jpg",
+        "video": `video: <iframe src="https://www.youtube.com/embed/KQetemT1sWc?si=0OHOsuZPE2mq0Yyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Hey Jude":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1747018637/Hey_Jude_Remastered_2015_-_The_Beatles_ce12qf.mp3 ",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018614/Hey_Jude_nsxev5.jpg",
+        "video": `<iframe src="https://www.youtube.com/embed/A_MjCqQoLLA?si=aN0vdZETG-Wmbjax&amp;start=106" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Blackbird":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1747018616/Blackbird_Remastered_2009_-_The_Beatles_w5tcoc.mp3",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018618/The_Beatles_The_White_Album_by_The_Beatles_on_Apple_Music_k2jkfd.jpg",
+        "video": `<iframe src="https://www.youtube.com/embed/Man4Xw8Xypo?si=wabBGSQn4kBtJTHx&amp;start=106" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Let It Be":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1747018632/Let_It_Be_Remastered_2009_-_The_Beatles_wij0tt.mp3 ",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018618/The_Beatles_-_Let_It_Be_1967_n6nfs8.jpg",
+        "video": `<iframe src="https://www.youtube.com/embed/CGj85pVzRJs?si=0m27N8_a3hv8Yr9e&amp;start=106" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Something":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/v1747018629/Something_Remastered_2015_-_The_Beatles_aorouf.mp3 ",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/v1747018617/THE_BEATLES_-_Abbey_Road_1969_if03vb.jpg",
+        "video": ``
+    },
      "November rain":{
         "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/November%20rain",
         "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/Don%27t%20Cry%20-%20poster.jpg",
