@@ -8,49 +8,69 @@
 </head>
 <body>
 
-    <section class="content-artista">
-        <div class="content-img-portada" onclick="changeMusic(this)">
+    <section class="content-artista" id="list-music">
+        <div class="content-img-portada">
             <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/MAGO%20DE%20OZ%20-%20portada" alt="" class="portada-img">
             <h3>Mago de Oz</h3>
+            <a href="../index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M4 19v-9q0-.475.213-.9t.587-.7l6-4.5q.525-.4 1.2-.4t1.2.4l6 4.5q.375.275.588.7T20 10v9q0 .825-.588 1.413T18 21h-3q-.425 0-.712-.288T14 20v-5q0-.425-.288-.712T13 14h-2q-.425 0-.712.288T10 15v5q0 .425-.288.713T9 21H6q-.825 0-1.412-.587T4 19"/></svg>
+            </a>
         </div>
+
+        <a href="#reproductor" class="ancla-reproductor">
+            <div class="content-list-music" onclick="changeMusic(this)">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/el%20santo%20grial%20-%20poster" alt="" class="poster-img">
+                <h3>El santo grial</h3>
+            </div>
+        </a>
+
+        <a href="#reproductor" class="ancla-reproductor">
+            <div class="content-list-music" onclick="changeMusic(this)">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster" alt="" class="poster-img">
+                <h3>In eternum</h3>
+            </div>
+        </a>
+
+        <a href="#reproductor" class="ancla-reproductor">
+            <div class="content-list-music" onclick="changeMusic(this)">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster" alt="" class="poster-img">
+                <h3>Y que nunca falte un te quiero</h3>
+            </div>
+        </a>
+
+        <a href="#reproductor" class="ancla-reproductor">
         <div class="content-list-music" onclick="changeMusic(this)">
-            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/el%20santo%20grial%20-%20poster" alt="" class="poster-img">
-            <h3>El santo grial</h3>
-        </div>
-        <div class="content-list-music" onclick="changeMusic(this)">
-            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster" alt="" class="poster-img">
-            <h3>In eternum</h3>
-        </div>
-        <div class="content-list-music" onclick="changeMusic(this)">
-            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster" alt="" class="poster-img">
-            <h3>Y que nunca falte un te quiero</h3>
-        </div>
-        <div class="content-list-music" onclick="changeMusic(this)">
-            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/la%20santa%20campana" alt="" class="poster-img">
-            <h3>La santa campaña</h3>
-        </div>
-        <div class="content-list-music" onclick="changeMusic(this)">
-            <img src=" https://res.cloudinary.com/dcqr7yd84/image/upload/pasen%20y%20beban%20-%20poster" alt="" class="poster-img">
-            <h3>Pasen y beban</h3>
-        </div>
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/la%20santa%20campana" alt="" class="poster-img">
+                <h3>La santa campaña</h3>
+            </div>
+        </a>
+
+        <a href="#reproductor" class="ancla-reproductor">
+            <div class="content-list-music" onclick="changeMusic(this)">
+                <img src=" https://res.cloudinary.com/dcqr7yd84/image/upload/pasen%20y%20beban%20-%20poster" alt="" class="poster-img">
+                <h3>Pasen y beban</h3>
+            </div>
+        </a>
     </section>
 
-    <section class="content-reproductor">
+    <section class="content-reproductor" id="reproductor">
         <div class="reproductor-content-audio">
-            <div class="reproductor-content-poster">
-                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/el%20santo%20grial%20-%20poster" alt="" class="reproductor-poster-img">
-                <div class="content-about-music">
-                    <h2 class="reproductor-nombre-cancion">
-                        El santo grial
-                    </h2>
-                    <h3 class="reprodutor-nombre-artista">
-                        Mago de Oz
-                    </h3>
-                </div>
+            <a href="#list-music">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M17.316 4.052a.99.99 0 0 0-.9.14c-.262.19-.416.495-.416.82v8.566a4.6 4.6 0 0 0-2-.464c-1.99 0-4 1.342-4 3.443S12.01 20 14 20s4-1.342 4-3.443V6.801c.538.5 1 1.219 1 2.262c0 .56.448 1.013 1 1.013s1-.453 1-1.013c0-1.905-.956-3.18-1.86-3.942a6.4 6.4 0 0 0-1.636-.998l-.166-.063l-.013-.005l-.005-.002h-.002zM4 5.012c-.552 0-1 .454-1 1.013c0 .56.448 1.013 1 1.013h9c.552 0 1-.453 1-1.013s-.448-1.012-1-1.012H4Zm0 4.051c-.552 0-1 .454-1 1.013c0 .56.448 1.013 1 1.013h9c.552 0 1-.454 1-1.013c0-.56-.448-1.013-1-1.013zm0 4.05c-.552 0-1 .454-1 1.014c0 .559.448 1.012 1 1.012h4c.552 0 1-.453 1-1.012c0-.56-.448-1.013-1-1.013z" clip-rule="evenodd"/></svg>
+            </a>
+
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/el%20santo%20grial%20-%20poster" alt="" class="reproductor-poster-img">
+            <div class="content-about-music">
+                <h2 class="reproductor-nombre-cancion">
+                    El santo grial
+                </h2>
+                <h3 class="reprodutor-nombre-artista">
+                    Mago de Oz
+                </h3>
             </div>
-            <div class="reproductor-content-audio-control">
-                <audio id="player" src="https://res.cloudinary.com/dcqr7yd84/video/upload/El%20Santo%20Grial" controls></audio>
-            </div>
+
+            <audio id="player" src="https://res.cloudinary.com/dcqr7yd84/video/upload/El%20Santo%20Grial" controls></audio>
+
         </div>
     
         <div class="reproductor-content-video">
