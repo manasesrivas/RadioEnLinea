@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Mago de Oz</title>
+</head>
+<body>
+
+    <section class="content-artista">
+        <div class="content-img-portada" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/MAGO%20DE%20OZ%20-%20portada" alt="" class="portada-img">
+            <h3>Mago de Oz</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/el%20santo%20grial%20-%20poster" alt="" class="poster-img">
+            <h3>El santo grial</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster" alt="" class="poster-img">
+            <h3>In eternum</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster" alt="" class="poster-img">
+            <h3>Y que nunca falte un te quiero</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/la%20santa%20campana" alt="" class="poster-img">
+            <h3>La santa campaña</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src=" https://res.cloudinary.com/dcqr7yd84/image/upload/pasen%20y%20beban%20-%20poster" alt="" class="poster-img">
+            <h3>Pasen y beban</h3>
+        </div>
+    </section>
+
+    <section class="content-reproductor">
+        <div class="reproductor-content-audio">
+            <div class="reproductor-content-poster">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/el%20santo%20grial%20-%20poster" alt="" class="reproductor-poster-img">
+                <div class="content-about-music">
+                    <h2 class="reproductor-nombre-cancion">
+                        El santo grial
+                    </h2>
+                    <h3 class="reprodutor-nombre-artista">
+                        Mago de Oz
+                    </h3>
+                </div>
+            </div>
+            <div class="reproductor-content-audio-control">
+                <audio id="player" src="https://res.cloudinary.com/dcqr7yd84/video/upload/El%20Santo%20Grial" controls></audio>
+            </div>
+        </div>
+    
+        <div class="reproductor-content-video">
+            <iframe src="https://www.youtube.com/embed/_KqN1Kj6d3U?si=800usb0xgGpnFMXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <script src="/js/main.js"></script>
+</body>
+</html>

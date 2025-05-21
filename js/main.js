@@ -144,6 +144,82 @@ const canciones = {
         "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/backinblack%20-%20poster.jpg",
         "video": `video: <iframe width="560" height="315" src="https://www.youtube.com/embed/GL56LY6fE0E?si=zFicGsTMc-KdRALN&amp;start=152" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
     },
+    "nothing else matters":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/nothing%20else%20matters",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/nothing%20else%20matters%20-%20poster.jpg",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "one":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/one",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/one%20-%20poster.jpg",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/1IgOZaQqB58?si=NvjVbn8kqNlP9IXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "for whom the bell tolls":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/for%20whom%20the%20bell%20tolls",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/for%20whom%20the%20bell%20tolls%20-%20poster.jpg",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "master of puppets":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/master%20of%20puppets",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/master%20of%20puppets%20-%20poster.jpg",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "enter sandman":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/enter%20sandman",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/enter%20sandman%20-%20poster.jpg",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "B.Y.O.B.":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/B.Y.O.B.",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/B-Y-O-B-poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/zUzd9KyIDrM?si=LkAHfY986y_LMPPF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Chop Suey!":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/Chop%20Suey%21",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/Toxicity-poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Aerials":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/Aerials",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/Toxicity-poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Toxicity":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/Toxicity",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/Toxicity-poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Lonely day":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/Lonely%20Day",        
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/Lonely%20Day%20-%20poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "El santo grial":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/El%20Santo%20Grial",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/el%20santo%20grial%20-%20poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "In eternum":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/In%20eternum",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Y que nunca falte un te quiero":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/Y%20que%20nunca%20falte%20un%20te%20quiero",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/y%20que%20nunca%20falte%20un%20te%20quiero%20-%20poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "La santa campaña":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/La%20santa%20campana",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/la%20santa%20campana",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    "Pasen y beban":{
+        "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/Pasen%20y%20beban",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/pasen%20y%20beban%20-%20poster",
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+
 }
 
 const tagPoster = document.querySelector(".reproductor-poster-img")

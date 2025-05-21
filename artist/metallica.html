@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Imagine Dragons</title>
+</head>
+<body>
+
+    <section class="content-artista">
+        <div class="content-img-portada" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747626869/metallica-portada.jpg" alt="" class="portada-img">
+            <h3>Metallica</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/nothing%20else%20matters-poster" alt="" class="poster-img">
+            <h3>Nothing else matters</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/one-poster" alt="" class="poster-img">
+            <h3>One</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/v1747799669/for_whom_the_toll_bell_agfmou.webp" alt="" class="poster-img">
+            <h3>For Whom The Bell Tolls</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/master%20of%20puppets-poster" alt="" class="poster-img">
+            <h3>Master of puppets</h3>
+        </div>
+        <div class="content-list-music" onclick="changeMusic(this)">
+            <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/nothing%20else%20matters-poster" alt="" class="poster-img">
+            <h3>Enter sandman</h3>
+        </div>
+    </section>
+
+    <section class="content-reproductor">
+        <div class="reproductor-content-audio">
+            <div class="reproductor-content-poster">
+                <img src="https://res.cloudinary.com/dcqr7yd84/image/upload/nothing%20else%20matters-poster" alt="" class="reproductor-poster-img">
+                <div class="content-about-music">
+                    <h2 class="reproductor-nombre-cancion">
+                        Nothing else matters
+                    </h2>
+                    <h3 class="reprodutor-nombre-artista">
+                        Metallica
+                    </h3>
+                </div>
+            </div>
+            <div class="reproductor-content-audio-control">
+                <audio id="player" src="https://res.cloudinary.com/dcqr7yd84/video/upload/Metallica%20Nothing%20Else%20Matters" controls></audio>
+            </div>
+        </div>
+    
+        <div class="reproductor-content-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tAGnKpE4NCI?si=U3_EmzqWFQghi5De" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <script src="/js/main.js"></script>
+</body>
+</html>
