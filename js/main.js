@@ -211,7 +211,7 @@ const canciones = {
     },
     "Y que nunca falte un te quiero":{
         "direccion": "https://res.cloudinary.com/dcqr7yd84/video/upload/Y%20que%20nunca%20falte%20un%20te%20quiero",
-        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/y%20que%20nunca%20falte%20un%20te%20quiero%20-%20poster",
+        "poster": "https://res.cloudinary.com/dcqr7yd84/image/upload/in%20eternum%20-%20poster",
         "video": `<iframe src="https://www.youtube.com/embed/8SbUC-UaAxE?si=PterbAav_jETD-Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
     },
     "La santa campaña":{
@@ -232,7 +232,7 @@ const tagNombreCancion = document.querySelector(".reproductor-nombre-cancion")
 const player = document.querySelector("#player")
 
 const contentVideo = document.querySelector(".reproductor-content-video")
-
+// E91NDUCqvynR_YQArvWZHA
 const changeMusic = (e) => {
     console.log(e)
     let nombreCancion = e.querySelector("h3").textContent
